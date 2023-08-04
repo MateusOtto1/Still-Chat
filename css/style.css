@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;1,400&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background: url(../imagens/Walpaper.avif) no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 35rem;
+    height: 40rem;
+    background: transparent;
+    border-radius: 20px;
+    border: 2px solid #fff;
+    justify-content: center;
+    backdrop-filter: blur(6px);
+    text-align: center;
+}
+
+.logo{
+    margin-top: 2rem;
+    font-size: 3rem;
+    color: #ffffff;
+}
+
+.login{
+    margin-top: 0.5rem;
+    font-size: 2.5rem;
+    color: #ffffff;
+}
+
+.container-form-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-login{
+    margin-top: 5rem;
+    width: 22rem;
+}
+
+.nick-login{
+    margin-left: 1rem;
+    color: #fff;
+    text-align: left;
+    font-size: 2rem;
+}
+
+.input-login{
+    width: 20rem;
+    height: 3rem;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    padding: 0 0 0 20px;
+    color:#000;
+    font-size: 1.2rem;
+}
+
+.btnLogar{
+    margin-top: 3rem;
+    width: 21rem;
+    height: 3rem;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    background: #000000;
+    color: #ffffff;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.btnLogar:hover{
+    background: #ffffff;
+    color: #000000;
+    transition: 1.5s;
+}
+
+/* salas */
+
+.container-salas{
+    width: 80rem;
+    height: 40rem;
+    background: transparent;
+    border-radius: 20px;
+    border: 2px solid #fff;
+    backdrop-filter: blur(6px);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnCriar{
+    width: 15rem;
+    height: 3rem;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    background: #000000;
+    color: #ffffff;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.btnCriar:hover{
+    background: #ffffff;
+    color: #000000;
+    transition: 1.5s;
+}
+
+.container-todas-salas{
+    margin-top: 1rem;
+    width: 90%;
+    height: 65%;
+    border-radius: 20px;
+    border: 2px solid #fff;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    overflow-y: scroll;
+}
+
+.nome-sala{
+    width: 97%;
+    height: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.btnSala{
+    width: 100%;
+    height: 3rem;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    background: #ffffff;
+    color: #000000;
+    font-size: 2rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    justify-content: space-between;
+    display: flex;
+    text-align: left;
+    padding-left: 1rem;
+}
+
+.btnSala:hover{
+    background: #000000;
+    color: #ffffff;
+    transition: 1.5s;
+}
+
+.cadeado{
+    margin-right: 1rem;
+}
+
+/* criar sala */
+
+.text-criar-sala{
+    margin-top: 1rem;
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+.nome-sala{
+    margin-left: 1rem;
+    color: #fff;
+    text-align: left;
+    font-size: 1.7rem;
+}
+
+.divCheck{
+    color:#fff;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    text-align: left;
+    font-size: 1.3rem;
+}
+
+.check{
+    width: 1.3rem;
+    height: 1.3rem;
+}
+
+.check:hover{
+    background-color: #000000 !important;
+}
+
+.nome-senha{
+    margin-left: 1rem;
+    color: #fff;
+    text-align: left;
+    font-size: 1.7rem;
+    display: none;
+}
+
+.input-senha{
+    width: 20rem;
+    height: 3rem;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    padding: 0 0 0 20px;
+    color:#000;
+    font-size: 1.2rem;
+    display: none;
+}
+
+.form-senha{
+    margin-top: 1rem;
+    width: 22rem;
+}
+
+.btnCriarSala{
+    margin-top: 3rem;
+    width: 18rem;
+    height: 3rem;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    background: #000000;
+    color: #ffffff;
+    font-size: 2rem;
+    cursor: pointer;
+}
