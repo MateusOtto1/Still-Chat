@@ -25,6 +25,7 @@ body {
     justify-content: center;
     backdrop-filter: blur(6px);
     text-align: center;
+    background-color: #00000044;
 }
 
 .logo{
@@ -46,7 +47,7 @@ body {
 }
 
 .form-login{
-    margin-top: 5rem;
+    margin-top: 2rem;
     width: 22rem;
 }
 
@@ -101,6 +102,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: #00000044;
 }
 
 .btnCriar{
@@ -125,12 +127,28 @@ body {
     margin-top: 1rem;
     width: 90%;
     height: 65%;
-    border-radius: 20px;
-    border: 2px solid #fff;
+    border-radius: 15px;
     justify-content: center;
     text-align: center;
     display: flex;
     overflow-y: scroll;
+}
+
+.container-todas-salas::-webkit-scrollbar-track{
+	border-radius:15px;
+	background-color: #858f81;
+}
+
+.container-todas-salas::-webkit-scrollbar{
+    border-radius:15px;
+	width: 6px;
+	background-color: #858f81;
+}
+
+.container-todas-salas::-webkit-scrollbar-thumb{
+	border-radius:15px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #000000;
 }
 
 .nome-sala{
@@ -237,4 +255,109 @@ a{
     color: #ffffff;
     font-size: 2rem;
     cursor: pointer;
+}
+
+/* Chat */
+
+.container-chat{
+    width: 90rem;
+    height: 50rem;
+    background: transparent;
+    border-radius: 20px;
+    border: 2px solid #fff;
+    justify-content: center;
+    backdrop-filter: blur(6px);
+    text-align: center;
+    background-color: #0000008a;
+}
+
+.btnVoltar{
+    width: 18rem;
+    height: 3rem;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    background: #000000;
+    color: #ffffff;
+    font-size: 2rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.btnVoltar:hover{
+    background: #ffffff;
+    color: #000000;
+    transition: 1.5s;
+}
+
+.container-mensagens{
+    margin-top: 1rem;
+    width: 95%;
+    height: 39rem;
+    overflow-y: scroll;
+    margin-left: 2.5%;
+}
+
+.container-mensagens::-webkit-scrollbar-track{
+	border-radius:15px;
+	background-color: #858f81;
+}
+
+.container-mensagens::-webkit-scrollbar{
+    border-radius:15px;
+	width: 6px;
+	background-color: #858f81;
+}
+
+.container-mensagens::-webkit-scrollbar-thumb{
+	border-radius:15px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #000000;
+}
+
+.mensagem{
+    margin-top: 1.5rem;
+    color: #fff;
+    display: block;
+    text-align: left;
+    font-size: 1.3rem;
+    margin-left: 1rem;
+}
+
+.input-chat{
+    width: 80%;
+    height: 3rem;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    padding: 0 0 0 20px;
+    color:#000;
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+}
+
+@media (max-width: 850px){
+    .btnSala{
+       font-size: 1.8rem;
+    } 
+}
+
+@media (max-width: 600px){
+    .btnSala{
+        padding-left: 0;
+        font-size: 1.5rem;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 450px){
+    .btnSala{
+        padding-left: 0;
+        font-size: 1.3rem;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
 }
